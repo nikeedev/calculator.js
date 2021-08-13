@@ -1,3 +1,18 @@
 #text {
-    color: aquamarine;
+    color: darkorange;
+}
+#calculator {
+    width: 100px;
+    font-family: Arial;
+    font-size: 34px;
+}
+body {
+    text-align: center;
+}
+html {
+    font-family: Arial;
+    background-color: deepskyblue;
+}
+h1 {
+    color: darkorange;
 }
