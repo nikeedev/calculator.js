@@ -38,3 +38,13 @@ function multi() {
 
 	answermulti.value = number3 * number4;
 }
+
+function findSquare() {
+	var number5 = parseFloat(document.getElementById("number5").value);
+	var answersquare = document.getElementById("answersquare");
+
+	answersquare.value = Math.sqrt(number5);
+}
+
+
+
