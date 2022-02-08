@@ -11,7 +11,6 @@ function minus() {
 	var answerplus = document.getElementById("answerplus");
 
 	answerplus.innerHTML = number1 - number2;
-	answerplus.inn
 }
 
 
