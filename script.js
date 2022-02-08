@@ -1,50 +1,49 @@
 function percent(){
-	var numbers = document.getElementById("numbers").innerHTML;
-	var percent = document.getElementById("percent").innerHTML;
+	var numbers = document.getElementById("numbers").value;
+	var percent = document.getElementById("percent").value;
     var answer = document.getElementById("answer");	
-	answer.innerHTML = percent * numbers / 100;
+	answer.value = percent * numbers / 100;
 }
 
 function minus() {
-	var number1 = parseFloat(document.getElementById("number1").innerHTML);
-	var number2 = parseFloat(document.getElementById("number2").innerHTML);
+	var number1 = parseFloat(document.getElementById("number1").value);
+	var number2 = parseFloat(document.getElementById("number2").value);
 	var answerplus = document.getElementById("answerplus");
 
-	answerplus.innerHTML = number1 - number2;
+	answerplus.value = number1 - number2;
 }
 
 
-
 function plus() {
-	var number1 = parseFloat(document.getElementById("number1").innerHTML);
-	var number2 = parseFloat(document.getElementById("number2").innerHTML);
+	var number1 = parseFloat(document.getElementById("number1").value);
+	var number2 = parseFloat(document.getElementById("number2").value);
 	var answerplus = document.getElementById("answerplus");
 
-	answerplus.innerHTML = number1 + number2;
+	answerplus.value = number1 + number2;
 }
 
 
 function devis() {
-	var number3 = parseFloat(document.getElementById("number3").innerHTML);
-	var number4 = parseFloat(document.getElementById("number4").innerHTML);
+	var number3 = parseFloat(document.getElementById("number3").value);
+	var number4 = parseFloat(document.getElementById("number4").value);
 	var answermulti = document.getElementById("answermulti");
 
-	answermulti.innerHTML = number3 / number4;
+	answermulti.value = number3 / number4;
 }
 
 function multi() {
-	var number3 = parseFloat(document.getElementById("number3").innerHTML);
-	var number4 = parseFloat(document.getElementById("number4").innerHTML);
+	var number3 = parseFloat(document.getElementById("number3").value);
+	var number4 = parseFloat(document.getElementById("number4").value);
 	var answermulti = document.getElementById("answermulti");
 
-	answermulti.innerHTML = number3 * number4;
+	answermulti.value = number3 * number4;
 }
 
 function findSquare() {
-	var number5 = parseFloat(document.getElementById("number5").innerHTML);
+	var number5 = parseFloat(document.getElementById("number5").value);
 	var answersquare = document.getElementById("answersquare");
 
-	answersquare.innerHTML = Math.sqrt(number5);
+	answersquare.value = Math.sqrt(number5);
 }
 
 
